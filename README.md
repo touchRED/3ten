@@ -1,4 +1,4 @@
-3ten
+3TEN
 ====
 
-The 3ten app
+The 3TEN app
