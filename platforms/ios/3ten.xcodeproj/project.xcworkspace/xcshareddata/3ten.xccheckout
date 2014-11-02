@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D714137-9AC8-4E9E-A41F-13A2431192A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>3ten</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>387860D0FE29A84ECD4A9727E0B6B398F445DEA1</key>
+		<string>https://github.com/Evan-Goode/3ten.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/3ten.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>387860D0FE29A84ECD4A9727E0B6B398F445DEA1</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Evan-Goode/3ten.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>387860D0FE29A84ECD4A9727E0B6B398F445DEA1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>387860D0FE29A84ECD4A9727E0B6B398F445DEA1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3ten</string>
+		</dict>
+	</array>
+</dict>
+</plist>
