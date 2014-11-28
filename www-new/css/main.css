@@ -1,0 +1,75 @@
+@font-face {
+  src: url(../fonts/roboto.ttf);
+  font-family: Roboto;
+}
+@-webkit-keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate(-30deg);
+  }
+  75% {
+    -webkit-transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+html, body, .main {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.menu-bar {
+  background-color: #d01716;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.nav-bar {
+  background-color: #e51c23;
+  height: 44px;
+  width: 100%;
+  top: 20px;
+  position: fixed;
+  box-shadow: 0 0 8px black;
+}
+.sidebar-glyph {
+  background: url(../img/sidebar-glyph.png) no-repeat center center / 16px 16px;
+  height: 16px;
+  width: 16px;
+  left: 14px;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+}
+.category-title {
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+}
+.spinner {
+  height: 96px;
+  width: 96px;
+  border: 12px solid transparent;
+  border-left: 12px solid #e51c23;
+  border-right: 12px solid #2e2e2e;
+  border-radius: 50%;
+  position: relative;
+  left: calc(50% - 48px);
+  top: calc(50% - 48px);
+  -webkit-animation: loading 1.5s infinite;
+}
+.card {
+  
+}

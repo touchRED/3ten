@@ -10,6 +10,6 @@
     <content src="index.html" />
     <access origin="*" />
 		<preference name="StatusBarOverlaysWebView" value="true" />
-		<preference name="StatusSarStyle" value="darkcontent" />
+		<preference name="StatusSarStyle" value="lightcontent" />
         <preference name="DisallowOverscroll" value="true" /> 
 </widget>
