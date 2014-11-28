@@ -15,7 +15,11 @@ $(document).ready(function() {
 					var content = data.posts[i].content;
 					var contentPlain = content.replace(/\<[^>]*\>/g, '');
 					$(".content-card-content-description:eq("+i+")").html(contentPlain);
+<<<<<<< HEAD
 					//$(".content-card-image:eq("+i+")").css({'background-image':'url('+data.posts[i].attachments.images.large+')'});
+=======
+>>>>>>> FETCH_HEAD
+					$(".content-card-image:eq("+i+")").css({'background-image':'url('+data.posts[i].thumbnail_images.full.url+')'});
 					//var contentImg = content.replace(regex that removes all tags except img);
 					$(".article-content:eq("+i+")").html(contentPlain);
 				}
