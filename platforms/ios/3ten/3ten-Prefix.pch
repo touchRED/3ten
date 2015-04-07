@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the '3ten' target in the '3ten' project
+// Prefix header for all source files of the '3TEN' target in the '3TEN' project
 //
 
 #ifdef __OBJC__
