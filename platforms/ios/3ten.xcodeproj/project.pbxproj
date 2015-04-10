@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1A326DBA45834BD7BB0751C9 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8990025280854198ADE85739 /* CDVStatusBar.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
@@ -502,7 +501,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = 3TEN;
+				PRODUCT_NAME = "3TEN";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -535,7 +534,7 @@
 					"\"$(BUILT_PRODUCTS_DIR)/libCordova.a\"",
 					"-ObjC",
 				);
-				PRODUCT_NAME = 3TEN;
+				PRODUCT_NAME = "3TEN";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

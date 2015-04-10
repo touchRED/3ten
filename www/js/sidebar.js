@@ -42,7 +42,7 @@ $('.navbar-back-glyph').on("tap", function(event) {
   hideArticle();
 });
 
-$('.main').on("swipe", function(event) {
+$('.main').on("swiperight", function(event) {
   showSidebar();
 });
 
@@ -54,32 +54,41 @@ $('.overlay').on("tap", function(event) {
   hideSidebar();
 });
 
+$('.sidebar').on('swipeleft', function(){
+  hideSidebar();
+});
+
 $('.sidebar-tab-lifestyle').on("tap", function(event) {
   $('.sidebar-tab').removeClass('sidebar-tab-selected');
   $('.sidebar-tab-lifestyle').addClass('sidebar-tab-selected');
   update("lifestyle");
+  hideSidebar();
 });
 
 $('.sidebar-tab-news').on("tap", function(event) {
   $('.sidebar-tab').removeClass('sidebar-tab-selected');
   $('.sidebar-tab-news').addClass('sidebar-tab-selected');
   update("news");
+  hideSidebar();
 });
 
 $('.sidebar-tab-opinions').on("tap", function(event) {
   $('.sidebar-tab').removeClass('sidebar-tab-selected');
   $('.sidebar-tab-opinions').addClass('sidebar-tab-selected');
   update("opinions");
+  hideSidebar();
 });
 
 $('.sidebar-tab-sports').on("tap", function(event) {
   $('.sidebar-tab').removeClass('sidebar-tab-selected');
   $('.sidebar-tab-sports').addClass('sidebar-tab-selected');
   update("sports");
+  hideSidebar();
 });
 
 $('.sidebar-tab-entertainment').on("tap", function(event) {
   $('.sidebar-tab').removeClass('sidebar-tab-selected');
   $('.sidebar-tab-entertainment').addClass('sidebar-tab-selected');
   update("entertainment");
+  hideSidebar();
 });
