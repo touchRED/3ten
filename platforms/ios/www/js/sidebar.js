@@ -34,7 +34,8 @@ function hideArticle() {
 }
 
 $('.content-card').on("tap", function(event) {
-  $(".article-content").html(posts[$(this).index()].content.replace(/\<[^>]*\>/g, ''));
+  // $(".article-content").html(posts[$(this).index()].content.replace(/\<[^>]*\>/g, ''));
+  $(".article-content").html(posts[$(this).index()].content);
   showArticle();
 });
 

@@ -29,11 +29,4 @@ function update(cat) {
 $(document).ready(function() {
 	//Use the update function whenever the content of a catgeory needs to be updated (when user clicks on category, when app launches). Specify the category as a parameter. Like so:
 	update("Lifestyle");
-	/*StatusBar.styleLightContent();*/
 });
-/*
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-	StatusBar.styleLightContent();
-}
-*/
