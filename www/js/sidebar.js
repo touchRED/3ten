@@ -22,6 +22,7 @@ function showArticle() {
     $('.main').css({'-webkit-transform':'translateX(calc(-100% - 32px))'});
     $('.sidebar').css({'z-index':'1'});
     $('.article').css({'z-index':'2'});
+    $('.article-content').scrollTop(0);
     appLocation = "article";
   }
 }
@@ -43,7 +44,7 @@ $('.navbar-back-glyph').on("tap", function(event) {
   hideArticle();
 });
 
-$('.main').on("swiperight", function(event) {
+$('.content').on("swiperight", function(event) {
   showSidebar();
 });
 
@@ -52,6 +53,12 @@ $('.navbar-sidebar-glyph').on("tap", function(event) {
 });
 
 $('.overlay').on("tap", function(event) {
+  if (appLocation == "sidebar") {
+    hideSidebar();
+  }
+});
+
+$('.overlay').on("swipeleft", function(event) {
   hideSidebar();
 });
 
