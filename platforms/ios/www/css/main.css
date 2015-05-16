@@ -139,7 +139,8 @@ html, body, .app {
   width: 44px;
   float: left;
   position: absolute;
-  background: url(../img/sidebar-glyph.png) no-repeat center center / 16px 16px; }
+  background: url(../img/sidebar-glyph.png) no-repeat center center / 16px 16px;
+}
 
 .navbar-back-glyph {
   height: 44px;
