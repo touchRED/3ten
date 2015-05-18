@@ -37,6 +37,24 @@ function hideArticle() {
 $('.content-card').on("tap", function(event) {
   // $(".article-content").html(posts[$(this).index()].content.replace(/\<[^>]*\>/g, ''));
   $(".article-content").html(posts[$(this).index()].content);
+  
+  /*
+    - Find the image within the article
+    - Remove it from the inline elements that surround it
+    - Prepend it to its outermost element within pf-content
+  */
+
+  $(".article-content img").each(function(i){
+    // console.log($(this).parents());
+    for (var i = 0; i < $(this).parents().length; i++) {
+      if($(this).parents()[i].classList[0] == "pf-content"){
+        // console.log($(this).parents()[i].classList);
+        $($(this).parents()[i-1]).before(this);
+        $(this).css("margin-left", $(document).width()/2 - $(this).width()/2 - 12);
+        break;
+      }
+    };
+  });
   showArticle();
 });
 
